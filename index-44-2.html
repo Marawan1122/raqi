@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>راقي للتصميم الداخلي</title>
+    <style>
+     main{
+      color:#554A38;
+     }
+     header{
+      color:#8C7040;
+      background:#FFFDF5;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+     }
+     footer{
+      margin-top:2%;
+      color:#FFFDF5;
+      background: #8C7040;
+      border: 10px double #ffffff;
+      border-radius:20px;
+      display: flex;
+      align-items: center;
+      justify-content:center;
+      text-align:center;
+     }
+     .save{
+      color:white;
+      align-items: center;
+      justify-content:center;
+      text-align:center;
+      display: flex;
+     }
+     .RAKY{
+      color:#8C7040;
+      font-size:200%;
+      display:flex;
+     }
+     .box1,.box2 ,.box3 ,.box4 ,.box5, .box6 {
+      text-decoration: none;
+      color:#554A38;
+     }
+     .lists{
+      font-size:150%;
+      margin-top:1%;
+      display:flex;
+      justify-content:space-around;
+      width:100%;
+     }
+     h2{
+      color:#8C7040;
+      margin-top:5%;
+      margin-bottom:1%;
+      font-size:300%;
+      text-align: center;
+     }
+     h3{
+      color:#8C7040;
+     }
+     p{
+      color:#554A38;
+      margin-top:1%;
+      font-size:150%;
+     }
+     cite{
+      color:#8C7040;
+      font-size:130%;
+     }
+     .card{
+      color:#554A38;
+      background: #FFFDF5;
+      border: 2px solid #D6B875;
+      background-color: #FFFDF5;
+      border-radius:20px;
+      flex:1;
+     }
+     .A{
+      margin-right:20px;
+     }
+     .card-image{
+      background: #E8D3A5;
+      height:220px;
+     }
+     blockquote{
+      color:#554A38;
+      background: #F5E9CE;
+     }
+     .Achievements{
+      color:#554A38;
+      background: #F5E9CE;
+      border: 2px solid #D6B875;
+      background-color: #FFFDF5;
+      border-radius:20px;
+     }
+     .Philosophies{
+      color:#554A38;
+      background: #F5E9CE;
+      border: 2px solid #D6B875;
+      background-color: #FFFDF5;
+      border-radius:20px;
+     }
+     .srvice{
+      color:#554A38;
+      background: #F5E9CE;
+      display:flex;
+      flex-direction:column;
+      border: 2px solid #D6B875;
+      background-color: #FFFDF5;
+      border-radius:20px;
+     }
+     .number{
+      color:#8C7040;
+      border: 2px solid #D6B875;
+      background-color: #FFFDF5;
+      border-radius:20px;
+      padding:10px;
+     }
+     .whats{
+      color:#FFFDF5;
+      background: #8C7040;
+      font-size:200%;
+      border: 2px solid #D6B875;
+      display:flex;
+      justify-content:center;
+      text-decoration:none;
+      gap:1%;
+      padding:10px;
+      border-radius:20px;
+     }
+     .tel{
+       color:#8C7040;
+     }
+     nav a:hover{
+      color:#B99A60;
+      background: #F5E9CE;
+     }
+     .frist-titel{
+     color:#8C7040;
+      margin-top:1%;
+      margin-bottom:1%;
+      font-size:300%;
+      text-align:right;
+     }
+     .customer_feedback{
+      text-align:right;
+     }
+     .Comment{
+       overflow:hidden;
+       width:21%;
+       border: 2px solid #D6B875;
+      background-color: #FFFDF5;
+      border-radius:20px;
+     }
+     .cards{
+        display:flex;
+        gap:20px;
+     }
+     .whats span {
+    display: inline-block;
+    animation: wave 1.2s ease-in-out infinite;
+}
+
+.whats span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.whats span:nth-child(2) {
+    animation-delay: 0.15s;
+}
+
+.whats span:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.whats span:nth-child(4) {
+    animation-delay: 0.45s;
+}
+
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
+     
+
+
+
+
+       body {
+    margin: 0;
+    min-height: 100vh;
+
+    background: linear-gradient(
+        135deg,
+        #FFFDF5,
+        #F8EFD9,
+        #E8D3A5,
+        #F5E9CE,
+        #DCC18B,
+        #FFF8E9,
+        #FFFDF5
+    );
+
+    background-size: 300% 300%;
+    background-attachment: fixed;
+
+    animation: heavenly 10s ease-in-out infinite alternate;
+}
+
+@keyframes heavenly {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+@media(max-width:720px){
+     footer{
+      height:80px;
+     }
+     .save{
+       font-size: 140%;
+      margin-top:8%;
+     }
+     .RAKY{
+      font-size:300%;
+     }
+     .lists{
+      font-size:99%;
+     }
+     h2{  
+      margin-top:8%;
+      font-size:200%; 
+     }
+     p{
+      font-size:110%;
+     }
+     cite{
+      font-size:100%;
+     }
+     .card{
+      overflow: hidden;
+     }
+     .whats{
+      font-size:150%;
+      border-radius:40px;
+     }
+     .frist-titel{
+     font-size:188%;
+     }
+     .Comment{
+       overflow:hidden;
+       width:300px;
+       margin:0 auto;
+     }
+     .cards{
+        display:flex;
+        flex-direction: column;
+     }
+    main > section{
+        padding:0 16px;
+    }
+ }
+    </style>
+</head>
+<body>
+    <header>
+      <div id="q" class="RAKY">راقي</div>
+    <nav class="lists">
+      <a class="box1" href="#q">الرئيسية</a>
+      <a class="box2" href="#w">أعمالنا</a>
+      <a class="box3" href="#e">خدماتنا</a>
+      <a class="box4" href="#r">فلسفتنا</a>
+      <a class="box5" href="#t">تواصل</a>
+      <a class="box6" href="#y">احجز موعد</a>
+    </nav>
+    </header>
+    <main>
+        <section>
+            <h2 class="frist-titel">حيث تتحول المساحات إلى تحف</h2>
+            <p>نصمم الفلل والقصور والمكاتب الراقية بتفاصيل فريدة وخامات مختارة بعناية</p>
+         </section>
+         <section>
+            <h2 class="Achievements1">إنجازاتنا</h2>
+            <div class="Achievements">
+                <p class="A">+150 مشروع فاخر</p>
+                <p class="A">+15سنة خبرة</p>
+                <p class="A">12 جائزة تصميم</p>
+                <p class="A">100% تنفيذ حسب الطلب</p>
+            </div>
+         </section>
+         <section>
+                <h2 id="w">أعمالنا</h2>
+        <div class="cards">
+            <div class="card">
+            <div class="card-image"></div>
+            <h3 class="A">فيلا التجمع الخامس</h3>
+            <p class="A">تصميم عصري بلمسات رخام وذهب</p>
+             </div>
+            <div class="card">
+               <div class="card-image"></div>
+               <h3 class="A">قصر الشيخ زايد</h3>
+               <p class="A">طراز كلاسيكي حديث بإضاءة مخصصة</p>
+            </div>
+             <div class="card">
+                <div class="card-image"></div>
+                <h3 class="A">بنتهاوس الزمالك</h3>
+                <p class="A">إطلالة نيل وتفاصيل خشب نادر</p>
+            </div>
+        </div>
+         </section>
+         <section>
+            <h2 id="e">خدماتنا</h2>
+            <div class="srvice">
+            <p class="A">التصميم الداخلي الكامل: من الفكرة حتى التسليم</p>
+            <p class="A">التصميم الخارجي والحدائق: واجهات ومساحات خضراء</p>
+            <p class="A">الإشراف على التنفيذ: متابعة دقيقة لكل تفصيلة</p>
+            </div>
+         </section>
+         <section>
+            <h2 id="r">فلسفتنا</h2>
+            <div class="Philosophies">
+               <p class="A">1. الاستماع: نفهم أسلوب حياتك وذوقك</p>
+               <p class="A">2. التصميم: نقدم مفاهيم ومجسمات ثلاثية الأبعاد</p>
+               <p class="A">3. التنفيذ: نشرف على كل مرحلة حتى التسليم</p>
+            </div>
+         </section>
+         <section>
+            <h2 class="customer_feedback">رأي عميل:</h2>
+            <section id="testimonial">
+            <blockquote class="Comment">
+               <p class="A">"حوّلوا بيتنا إلى مكان نفخر به كل يوم."</p>
+               <cite class="A">— أحمد السيد، فيلا التجمع الخامس</cite>
+            </blockquote>
+         </section>
+         </section>
+         <section>
+            <h2 id="t">التواصل</h2>
+            <div class="number">
+            <p class="A">الهاتف: <a class="tel" href="tel:201000000000">00000000000</a></p>
+            
+            <p class="A">الموقع: القاهرة الجديدة</p>
+            </div>
+         </section>
+         <section>
+            <h2 id="y">احجز موعد</h2>
+            <div class="number">
+            <p class="A">المواعيد: بالحجز المسبق فقط</p>
+            <a href="https://wa.me/201000000000" class="whats">
+            <span>احجز</span>
+            <span>موعدك</span>
+            <span>عبر</span>
+            <span>الواتساب</span>
+            </a>
+            </div>
+         </section>
+    </main>
+    <footer>
+        <section>
+           <p class="save">© 2026 راقي للتصميم الداخلي<br> جميع الحقوق محفوظة</p>
+        </section>
+    </footer>
+</body>
+</html>
+
